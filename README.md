@@ -1,16 +1,100 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive Notes Application built using **React.js, JavaScript, and CSS**. Designed to provide a simple interface for creating and managing personal notes.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create and manage notes.
+- Clean and minimal user interface.
+- Responsive design.
+- Reusable React components.
+- Fast development experience with Vite.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend library |
+| JavaScript | Application logic |
+| CSS3 | Styling and layout |
+| Vite | Development server and build tool |
+| HTML5 | Application structure |
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+notes-app/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/utkarsh8819-bit/notes-app.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd notes-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in browser
+
+Visit:
+
+```text
+http://localhost:5173
+```
+
+## 📸 Preview
+
+Run the application locally to explore its interface and functionality.
+
+## 🎯 Learning Outcomes
+
+- Understanding React components.
+- Working with JSX.
+- Managing frontend application structure.
+- Styling applications using CSS.
+- Using npm and Vite.
+- Managing projects with Git and GitHub.
+
+## 👨‍💻 Author
+
+**Utkarsh Soni**
+
+- GitHub: [@utkarsh8819-bit](https://github.com/utkarsh8819-bit)
+
+---
+
+⭐ If you like this project, consider giving it a star!
